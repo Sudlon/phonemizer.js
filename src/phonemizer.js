@@ -10,6 +10,14 @@ const workerPromise = new Promise((resolve) => {
 
 const SUPPORTED_LANGUAGES = [
   "en", // English
+  "nl",
+  "de",
+  "es",
+  "fr",
+  "it",
+  "pt",
+  "ru",
+  "ja"
 ];
 
 const initCache = workerPromise.then((worker) => {
